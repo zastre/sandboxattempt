@@ -1,0 +1,43 @@
+#
+# Five layers: two are images, two are text, one is a text layer
+# with nothing. One text layer uses padding; another uses an
+# opacity setting. The masthead uses an escape character to increase
+# the weight of text within the line.
+#
+
+name: test10
+size: a4
+font-family: LatoOFL
+layers:
+ -
+    name: background-image
+    position: top-left
+    image: galaxies_resized.png
+ -
+    name: masthead
+    position: top-left
+    text-size: 144
+    text-color: rgb(216,224,34)
+    text-weight: regular
+    padding: 20 0 0 20
+    text: 21^^CA^^
+ -
+    name: dateline
+    padding: 20 20 0 0
+    text-weight: bold
+    text-size: 18
+    text: 2014/01
+    position: top-right
+    text-color: rgb(216,224,34)
+ -
+    name: box-test
+    box-size: 240 235
+    box-color: rgb(254,233,229)
+    text: booyah
+    opacity: 75%
+    position: bottom-left
+ -
+    name: main-image
+    image: baby_liam_masked_resized.png
+    position: bottom-right
+    size: 100%

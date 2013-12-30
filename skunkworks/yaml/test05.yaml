@@ -1,0 +1,20 @@
+#
+# Two layers
+#
+
+name: test05
+size: a4
+font-family: LatoOFL
+layers:
+ -
+    name: main-text
+    position: top-left
+    text-size: 36
+    text-color: white
+    text-weight: light
+    text: Hello, world!
+ -
+    name: main-image
+    image: baby_liam_masked_resized.png
+    position: bottom-right
+    size: 100%

@@ -1,0 +1,32 @@
+#
+# Four layers: two are images, two are text
+#
+
+name: test06
+size: a4
+font-family: LatoOFL
+layers:
+ -
+    name: background-image
+    position: top-left
+    image: galaxies_resized.png
+ -
+    name: main-text
+    position: top-left
+    text-size: 36
+    text-color: white
+    text-weight: light
+    text: Hello, world!
+ -
+    name: dateline
+    padding: 20 20 0 0
+    text-weight: bold
+    text-size: 18
+    text: 2014/01
+    position: top-right
+    text-color: rgb(216,224,34)
+ -
+    name: main-image
+    image: baby_liam_masked_resized.png
+    position: bottom-right
+    size: 100%

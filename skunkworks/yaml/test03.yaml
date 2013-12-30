@@ -1,0 +1,15 @@
+# Hello, world! -- a single layer
+name: test03
+size: a4
+font-family: LatoOFL
+layers:
+ -
+    name: main-cover-line
+    position: 50 50
+    box-size: 200 200
+    #box-color: red
+    box-opacity: 100%
+    text-size: 48
+    text-color: white
+    text: Hello, World!
+    text-weight: light 

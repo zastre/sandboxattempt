@@ -1,0 +1,20 @@
+# Working with "escape" characters in a text line
+# that are used to increase the weight of a
+# sequence of chars
+#
+
+name: test09
+size: a4
+font-family: LatoOFL
+layers:
+ -
+    name: main-cover-line
+    position: 50 50
+    box-size: 400 200
+    #box-color: red
+    box-opacity: 100%
+    text-size: 48
+    text-color: white
+    text: Hello, ^^World!^^
+    #text: Hello, World!
+    text-weight: light

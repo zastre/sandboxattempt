@@ -1,0 +1,23 @@
+#
+# Five layers: two are images, two are text, one is a text layer
+# with nothing. One text layer uses padding; another uses an
+# opacity setting. The masthead uses an escape character to increase
+# the weight of text within the line.
+#
+
+name: test11
+size: a4
+font-family: LatoOFL
+layers:
+ -
+    name: cover-lines
+    position: bottom-left
+    opacity: 80%
+    #padding: 20 20 20 20
+    text-size: 36
+    text-color: red
+    text-weight: light
+    text: |+
+        How to keep
+        your ^^toddler safe^^ from
+        unwanted event horizonsg

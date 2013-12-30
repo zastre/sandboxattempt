@@ -1,0 +1,9 @@
+name: test04
+size: a4
+font-family: LatoOFL
+layers:
+ -
+    name: main-image
+    image: baby_liam_masked_resized.png
+    position: bottom-right
+    size: 100%
